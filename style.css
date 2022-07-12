@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Albert Sans', sans-serif;
+}
+
+:root {
+  --sweet-white: #e4e5eb;
+  --sweet-grey: #c7c7c7;
+  --light-blue: #cee6fc;
+  --blue: #74b8f8;
+  --light-grey: #777777;
+  --max-width: 100%;
+  --fade-transition: all 200ms ease;
+}
+
+#main-section {
+  display: flex;
+}
+
+#login-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: var(--max-width);
+  max-width: 500px;
+  min-height: 100vh;
+  padding: clamp(40px, 10%, 70px);
+}
+
+#login-title {
+  width: var(--max-width);
+  color: var(--blue);
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#login-title-label {
+  width: var(--max-width);
+  font-size: medium;
+  margin-bottom: 30px;
+}
+
+#mail-label,
+#password-label {
+  margin-bottom: 20px;
+  width: var(--max-width);
+  font-weight: 600;
+  color: var(--light-grey);
+}
+
+#mail-input,
+#password-input {
+  width: var(--max-width);
+  border: 2px solid var(--light-blue);
+  border-radius: 5px;
+  font-size: 0.9em;
+  padding: 15px 10px 10px;
+  font-weight: 600;
+  color: var(--light-grey);
+  outline: none;
+  transition: var(--fade-transition);
+}
+
+input:focus {
+  background-color: var(--light-blue);
+}
+
+#checkbox-label {
+  width: var(--max-width);
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+#checkbox-input {
+  appearance: none; /* reseta propriedades do elemento */
+  width: 20px;
+  height: 20px;
+  background-color: var(--sweet-white);
+  margin-right: 8px;
+  border-radius: 3px;
+}
+
+#checkbox-input:checked {
+  background-color: #74b8f8;
+}
+
+#checkbox-input:checked::after {
+  content: '';
+  display: block;
+  width: 5px;
+  height: 10px;
+  border: 3px solid var(--sweet-white);
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+  margin: 2px auto;
+}
+
+#sign-btn:disabled {
+  background-color: var(--sweet-grey);
+  color: rgb(44, 44, 44);
+}
+
+#sign-btn {
+  width: var(--max-width);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  transition: var(--fade-transition);
+  background-color: #3d9df8;
+  color: white;
+}
+
+#sign-btn:hover {
+  background-color: var(--blue);
+}
+
+#image-section {
+  width: 100%;
+  flex: 1;
+  background-image: url(./images/login-bg.png);
+  background-size: cover;
+  background-position: center;
+}
