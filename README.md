@@ -28,4 +28,14 @@ Uma vez com a aplicação iniciada em seu navegador, basta preencher os dados!
 
 Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
+## Inspiração para realizar os projetos
+
+Essa página foi realizada utilizando como inspiração o seguinte modelo:
+
+1. [Dribble Example](https://dribbble.com/shots/17564792-Log-in-page-Untitled-UI)
+
+Além dos conhecimentos aprendidos com o vídeo disponibilizado por:
+
+2. [Manual do Dev](https://www.youtube.com/watch?v=tyVvNj-UvxM)
+
 [⬆ Voltar ao topo](#login-page-project)<br>
