@@ -28,7 +28,7 @@ Uma vez com a aplicação iniciada em seu navegador, basta preencher os dados!
 
 Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-## Inspiração para realizar os projetos
+## Inspiração para realizar esse projeto
 
 Essa página foi realizada utilizando como inspiração o seguinte modelo:
 
