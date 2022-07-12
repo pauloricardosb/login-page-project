@@ -6,7 +6,7 @@
 
 ## 💻 Pré-requisitos
 
-Para jogar, verifique os seguintes requisitos:
+Para utilizar, verifique os seguintes requisitos:
 
 - Você ter instalado `VSCode e extensão Live Server`
 
